@@ -22,5 +22,15 @@
     "express": "^4.17.1",
     "multer": "^1.4.1",
     "path": "^0.12.7"
-  }
+  },
+  "bin": "server.js",
+  "pkg": {
+    "scripts": [
+    ],
+    "assets": [
+    "index.html",
+    "uploads/",
+    "public/"
+    ]
+    }
 }

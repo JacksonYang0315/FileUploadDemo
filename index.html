@@ -9,10 +9,10 @@
 </head>
 <body>
     <!-- <img src="upload/e5a385330a94c0ec9b3723c04a3e6c07"> -->
-    <form action="/file-upload" method="post" enctype="multipart/form-data" class="dropzone" id="mydropzone">
-        <div>
-          <input name="file" type="file" accept="image/*" />
-        </div>
+    <form action="/file-upload" method="post" enctype="multipart/form-data" class="dropzone">
+      <div class="fallback">    
+        <input name="file" type="file" accept="image/*" />
+      </div>
       </form>
     <script src="/js/dropzone.js"></script>
     <script>
